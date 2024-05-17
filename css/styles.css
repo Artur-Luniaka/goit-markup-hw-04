@@ -18,6 +18,9 @@ ul {
   padding: 0;
   margin: 0;
 }
+li {
+  list-style-type: none;
+}
 img {
   display: block;
 }
@@ -210,7 +213,7 @@ img {
 .second-section {
   flex-basis: calc((100% - 3 * 24px) / 1);
 }
-.icons-settings {
+.features-icons-settings {
   display: block;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -271,7 +274,25 @@ img {
 .team-position {
   text-align: center;
 }
-
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+.social-list .social-list-item {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  padding: 12px 12px;
+  fill: #f4f4fd;
+  cursor: pointer;
+}
 /*-------------- Portfolio-------------*/
 .portfolio-container {
   display: flex;
