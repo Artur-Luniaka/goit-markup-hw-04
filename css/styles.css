@@ -292,6 +292,14 @@ img {
   padding: 12px 12px;
   fill: #f4f4fd;
   cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+}
+.social-list .social-list-item:hover,
+.social-list .social-list-item:focus {
+  background-color: #31d0aa;
 }
 /*-------------- Portfolio-------------*/
 .portfolio-container {
