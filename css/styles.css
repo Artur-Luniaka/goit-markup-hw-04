@@ -353,3 +353,41 @@ img {
 .p-footer {
   max-width: 264px;
 }
+.footer-social-container {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  margin: 0 auto;
+}
+.social-text {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-bottom: 16px;
+}
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+.social-icons .social-icons-item {
+  display: flex;
+  gap: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  padding: 12px 12px;
+  fill: #f4f4fd;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+}
+.social-icons .social-icons-item:hover,
+.social-icons .social-icons-item:focus {
+  background-color: #31d0aa;
+}
