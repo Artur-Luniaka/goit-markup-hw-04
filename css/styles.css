@@ -131,12 +131,16 @@ img {
 .nav-item .colored {
   color: #404bbf;
 }
+.address-contact-transition {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 /*----------- Main-------------- */
 /* ----------Hero--------------- */
 
 .back-color .title .button {
   background-color: #2e2f42;
-  max-width: 1440px;
 }
 .back-hero-img {
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -144,6 +148,9 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.back-color .back-hero-img {
+  max-width: 1440px;
 }
 .first-section {
   padding: 188px 0;
@@ -417,9 +424,6 @@ img {
 .footer-social-item {
   width: 40px;
   height: 40px;
-  transition: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link {
   width: 100%;
@@ -429,6 +433,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
